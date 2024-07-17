@@ -1,0 +1,41 @@
+.footer-bg{
+    background-color: #D3DEF7;
+}
+.txt{
+    color: #392D82;
+    font-weight: bold;
+}
+
+.bh:hover{
+    color: black;
+}
+.e:hover{
+    text-decoration: underline;
+}
+
+.f{
+    color: #0645ad;
+}
+.i{
+    color: #a44eac;
+}
+
+.l{
+    color: #0A66C2;
+}
+
+.x{
+    color: rgb(175, 168, 168);
+}
+
+
+@media only screen and (max-width : 1024px) {
+    .footer-data{
+        font-size: 0.1em !important;
+        
+    }
+    .main-footer-data{
+        padding-left: 1.25rem !important;
+        padding-right: 1.25rem !important;
+    }
+}

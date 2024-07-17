@@ -1,0 +1,137 @@
+.Team-cont .head {
+    color: #022083;
+  }
+  
+  .text-color {
+    color: #012AB1;
+  }
+  
+  .text-color:hover {
+    color: #012AB1;
+  }
+  
+  .content-clr {
+    color: #0000FB;
+  }
+  
+  .card-border-clr {
+    border: 2px solid #0000FB;
+    border-radius: 20px;
+  }
+  
+  .card-bg {
+    background-color: #D3DEF7;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .head {
+    font-size: 48px;
+  }
+  
+  .team-mem img {
+    width: 22rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    position: absolute;
+    top: 0;
+  }
+  
+  .team-mem p {
+    position: relative;
+    top: 4rem;
+    padding-left: 1rem;
+    font-size: 14px;
+    margin-bottom: 0.4rem;
+  }
+  
+  .card-height-width {
+    height: 32rem;
+    width: 22rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .team-inner-cont-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .team-inner-cont {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .card-font {
+      font-size: 10px !important;
+    }
+    .card-padding {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .small-screen-margin {
+      margin-right: 5rem;
+      padding-right: 4rem;
+      position: absolute;
+      right: 2rem;
+    }
+    .team-inner-cont {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    .head {
+      justify-content: start !important;
+      margin-bottom: 0 !important;
+      margin-top: 1rem;
+    }
+    .team-inner-cont-container {
+      margin-right: 4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .services-each-card {
+      transform: scale(0.7);
+    }
+    .service-card-container {
+      width: 80%;
+      grid-gap: 0;
+    }
+    .team-inner-cont {
+      transform: scale(0.8);
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1rem;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .services-each-card {
+      transform: scale(0.7);
+    }
+    .team-inner-cont {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1rem;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .services-each-card {
+      transform: scale(1);
+    }
+    .team-inner-cont {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1rem;
+    }
+  }
+
+  

@@ -1,0 +1,44 @@
+.text-color{
+    color: #022083;
+}
+.btn-bg{
+    background-color: #426EFF;
+}
+
+.s-btn:hover{
+    text-decoration: underline;
+}
+
+.hero-img img{
+    width: 30rem;
+    height: 20rem;
+}
+
+.hero-img{
+    animation: top-down 5s ease-in-out 0s infinite normal both;
+}
+
+@keyframes top-down {
+    
+    0% {
+        transform: translateY(0);
+    }
+      50% {
+        transform: translateY(-2rem);
+    }
+      100% {
+        transform: translateY(0);
+    }
+}
+
+
+@media only screen and (max-width : 1024px) {
+    .company-name{
+        margin-top: 4rem;
+    }
+    
+}
+  
+ 
+  
+  
